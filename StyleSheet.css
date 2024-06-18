@@ -1,0 +1,459 @@
+﻿body {
+}
+.game12 {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 50% 50% ;
+    background-color: white;
+    height:600px;
+    margin-left:25px;
+}
+.card {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.container {
+     margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% - 30px);
+}
+
+.header .menu-mobile {
+     display: block;
+}
+
+.header .menu-mobile .menu-top .menu-content {
+     text-align: center;
+      padding: 5px 0;
+    }
+
+.header .menu-mobile .menu-top .menu-content .logo
+.header .menu-mobile .menu-bottom {
+         position: absolute;
+          top: 5px;
+        }
+
+.header .menu-mobile .menu-bottom .menu-content .menu-all {
+      height: 100%;
+      width: 0;
+      position: fixed;
+     z-index: 1000;
+      top: 0;
+      left: 0;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.9);
+     overflow-x: hidden;
+      transition: 0.5s;
+    }
+
+.header .menu-mobile .menu-bottom .menu-content .menu-all .menu-all-content {
+    position: relative;
+    top: 10%;
+     width: 100%;
+    margin-top: 20px;
+    left: 5%;
+
+}
+
+.header .menu-mobile .menu-bottom .menu-content .menu-all a.item {
+     text-decoration: none;
+     font-size: 16px;
+     color: #fff;
+     display: block;
+     transition: 0.3s;
+     padding-top: 20px;
+}
+
+.header .menu-mobile .menu-bottom .menu-content .menu-all ul li {
+       margin-left: 10px;
+}
+
+.header .menu-mobile .menu-bottom .menu-content .menu-all ul li a {
+    font-size: 14px;
+     color: #f9f9f9;
+}
+
+.header .menu-mobile .menu-bottom .menu-content .menu-all a:hover,
+.header .menu-mobile .menu-bottom .menu-content .menu-all a:focus {
+    color: #fff;
+}
+
+.header .menu-mobile .menu-bottom .menu-content .menu-all .closebtn {
+      position: absolute;
+      top: 5px;
+      right: 45px;
+      color: #fff;
+      font-size: 60px;
+}
+
+.menu-item{
+    color:white;
+    font-size:40px;
+}
+
+img {
+    width: 75%;
+    margin-left: 11%;
+}
+
+
+#home {
+    background-size: cover;
+}
+
+.h1o {
+    font-size: 48px;
+}
+
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body_1{
+    background-color: #080710;
+}
+
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+    .background .shape {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        border-radius: 50%;
+    }
+
+.shape:first-child {
+    background: linear-gradient( #1845ad, #23a2f6 );
+    left: -80px;
+    top: -80px;
+}
+
+.shape:last-child {
+    background: linear-gradient( to right, #ff512f, #f09819 );
+    right: -30px;
+    bottom: -80px;
+}
+
+form {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+    form * {
+        font-family: 'Poppins',sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+    }
+
+    form h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+    }
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: #e5e5e5;
+}
+
+.button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.try {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.again {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient(to right, red, purple);*/
+}
+
+.timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.progress-frame {
+    fill: transparent;
+    stroke: rgb(245, 78, 142);
+    stroke-width: 5px;
+}
+
+.progress {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s;
+}
+
+.time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    color: rgb(238, 238, 238);
+}
+.instruct {
+    text-align: center;
+    display: grid;
+    margin: auto;
+    background-color: #ffffff;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1fr;
+    grid-template-rows: 124px 40px auto auto;
+}
+
+#oo{
+    margin-left:20%;
+    width:60%;
+    direction: rtl;
+}
+
+
+video{
+    width:60%;
+}
+
+.oo2 {
+    text-align: center;
+    color: #51208b;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.oo4 {
+    text-align: center;
+    color: #51208b;
+}
+
+
+
+/*טיימר*/
+.card1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50%;
+    padding: 15px;
+    display: block;
+    max-width: 500px;
+    width: 75%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px -5px #909090;
+    transform: translate(-50%, -50%);
+}
+
+#countdown {
+    font-size: 48px;
+}
+
+.card2 {
+    font-size: 48px;
+    margin-left: 50%;
+}
+#topgame{
+  display:inline-block;
+}
+/*עיצוב לתפריט צף*/
+a {
+    color: inherit;
+    text-decoration: none;
+    background: linear-gradient( to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1) ), linear-gradient( to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1) );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+    a:hover {
+        background-size: 0 3px, 100% 3px;
+    }
+
+#win2{
+
+     background-position:center;
+     background-size:cover;
+     height:98%;
+     width:98%;
+         
+}
+.game15 {
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    background-color: white;
+    height: 1000px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.gameadd {
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    background-color: white;
+    height: 1000px;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    margin-left: 25px;
+}
+
+#h31 {
+    color: #64c8c8;
+    font-size: 50px;
+}
+/*כיתוב לגיים*/
+.spn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.spn:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+#awin {
+    background:none;
+}
+
+@media (max-width:800px) {
+    .h1o {
+        font-size: 40px;
+    }
+
+    .card1 {
+        font-size: 40px;
+    }
+
+    #countdown {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .h1o {
+        font-size: 30px;
+    }
+
+    .card1 {
+        font-size: 30px;
+        width:125px;
+    }
+
+    #countdown {
+        font-size: 30px;
+    }
+
+    #home {
+        background-size: contain;
+    }
+
+    .menu-item {
+        font-size: 20px;
+    }
+
+    .card {
+        margin: 5px;
+        height: 150px;
+    }
+
+    #game {
+        grid-template-rows: 30% 30% 30%;
+        height: 700px;
+    }
+
+    #h31 {
+        font-size: 20px;
+ 
+    }
+
+    .oo2 {
+        margin-left:10px;
+    }
+
+}
