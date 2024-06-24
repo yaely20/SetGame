@@ -1,13 +1,13 @@
 
-### SET Game is a JavaScript-based logic and speed game. The game focuses on using mathematical rules to find sets of cards.
-## Features
+##SET Game is a JavaScript-based logic and speed game. The game focuses on using mathematical rules to find sets of cards.
+### Features
 User-friendly design for an enjoyable gaming experience.
 Efficient code based on mathematical rules.
-## Technologies
+### Technologies
 HTML
 CSS
 JavaScript (JS)
-##  Screenshots
+###  Screenshots
 
 Site entry and option for registered users to start a game
 
